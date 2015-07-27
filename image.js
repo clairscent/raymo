@@ -1,7 +1,7 @@
 /**
  * Created by jzhu on 7/16/15.
  */
-alert("linked");
+
 var imageList, imageIndex,movieCategory;
 
 function MovieCategory(title, image, page) {
