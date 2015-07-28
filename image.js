@@ -23,9 +23,14 @@ function nextImage() {
 
 function setup() {
     imageList = [];
-    imageList.push(new MovieCategory("Classic Movies", "images/Metropolis.jpg", "classic.html"));
-    imageList.push(new MovieCategory("Science Fiction", "images/Plan_9_from_Outer_Space.jpg", "scifi.html"));
-    imageList.push(new MovieCategory("Alfred Hitchcock", "images/The_Birds.jpg", "hitchcock.html"));
+    imageList.push(new MovieCategory("Raymond's Badminton Game", "images/badminton/4.jpg", "badminton.html"));
+    imageList.push(new MovieCategory("Raymond's Different Look", "images/look/4.jpg", "look.html"));
+    imageList.push(new MovieCategory("Raymond's Motat Trip", "images/motat/4.jpg", "motat.html"));
+    imageList.push(new MovieCategory("Raymond's Piha Trip", "images/piha/5.jpg", "piha.html"));
+    imageList.push(new MovieCategory("Raymond On Queen St", "images/queenstreet/4.jpg", "queenst.html"));
+    imageList.push(new MovieCategory("Raymond in Ranbow's End", "images/rainbowsend/4.jpg", "ranbowsend.html"));
+    imageList.push(new MovieCategory("Raymond in Victoria Park", "images/victoriapark/3.jpg", "victoriapark.html"));
+    imageList.push(new MovieCategory("Raymond's Western Spring Trip", "images/westernspring/1.jpg", "westernspring.html"));
     imageIndex = 0;
     nextImage();
     setInterval(nextImage, 2000);

@@ -36,7 +36,7 @@ header, nav, footer, #main {
 /* Layout of the top-level blocks */
 
 header {
-    width: 767px;
+    width: 837px;
     overflow: hidden;
     background-image:url('images/headerBackground.png');
     background-repeat:no-repeat;
@@ -44,20 +44,24 @@ header {
 
 nav {
     font-size: 12pt;
-    width: 135px;
+    width: 185px;
     float: left;
 }
 
 #main {
-    width: 600px;
+    width: 620px;
     float: left;
 }
 
 footer {
     font-size: 8pt;
     text-align: right;
-    width: 767px;
+    width: 837px;
     clear: both;
+}
+
+#imageCarousel img{
+    margin-left: -50px;
 }
 
 /* Headings */
@@ -76,6 +80,12 @@ h2 {
 
 h3 {
     font-size: 12pt;
+}
+
+#main ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* Navigation links */
