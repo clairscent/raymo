@@ -43,7 +43,8 @@ header {
 }
 
 nav {
-    font-size: 12pt;
+    font-family: UpperEastSide, Verdana, sans-serif;
+    font-size: 25pt;
     width: 185px;
     float: left;
 }
@@ -81,6 +82,8 @@ h2 {
 h3 {
     font-size: 12pt;
 }
+
+
 
 #main ul {
     list-style-type: none;
